@@ -1,32 +1,19 @@
-# devbox-aider-vscode-template
+# Feed Me
 
-Template for new vscode projects that uses [devbox](https://www.jetify.com/docs/devbox/) for nix-based dependency management.
+Find food you actually want to eat near you.
 
-Includes console integration with [aider](https://aider.chat) for easy LLM usage within the project window.
+## Quick Start
 
-https://github.com/user-attachments/assets/5737e02a-55ce-4120-b184-8b2966bdce2d
+```
+npm run dev
+```
 
+Then visit http://localhost:5173/
 
-## One-time setup
-
-Install the following if not already on your machine:
-
-* [devbox](https://www.jetify.com/docs/devbox/)
-* [aider](https://aider.chat)
-* vscode extensions from `.vscode/extensions.json`
-
-## Project Setup
-
-### Aider (Console AI Agent)
-
-* Add API keys to a `.env` file (see `.env.example`)
-* Add [model](https://aider.chat/docs/llms.html) to an `.aider-model` file (see `.aider-model.example`)
-
-## Usage
-
-1) Open your project in vscode
-2) cmd+shift+p, `Devbox: Reopen in Devbox shell environment`
-
-## Helpful Docs
-
-* https://www.jetify.com/docs/devbox/quickstart/
+## Development Tools
+       
+| Tool | Description |
+|---|---|
+| Devbox | Package manager, nix-based. Used to install project dependencies  |
+| Aider | CLI interface for LLMs |
+| Vite  | Frontend build tool  |
