@@ -1,19 +1,24 @@
-# Feed Me
+# vite-project-template
 
-Find food you actually want to eat near you.
+An opinionated template for building vite/react projects in vscode.
 
-## Quick Start
+## One-time setup
 
-```
-npm run dev
-```
+Install the following if not already on your machine:
 
-Then visit http://localhost:5173/
+* [devbox](https://www.jetify.com/docs/devbox/)
+* [aider](https://aider.chat)
+* vscode extensions from `.vscode/extensions.json`
 
-## Development Tools
-       
-| Tool | Description |
-|---|---|
-| Devbox | Package manager, nix-based. Used to install project dependencies  |
-| Aider | CLI interface for LLMs |
-| Vite  | Frontend build tool  |
+### Aider Setup
+
+To use an LLM chatbot in the terminal, configure the following:
+
+* Add API keys to a `.env` file (see `.env.example`)
+* Add [model](https://aider.chat/docs/llms.html) to an `.aider-model` file (see `.aider-model.example`)
+
+## Usage
+
+1) Open your project in vscode
+2) cmd+shift+p, `Devbox: Reopen in Devbox shell environment`
+3) start dev server: `npm run dev`
