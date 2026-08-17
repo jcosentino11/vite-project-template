@@ -5,5 +5,7 @@
             "args": []
         }
     },
-    "terminal.integrated.defaultProfile.osx": "devboxCompatibleShell"
+    "terminal.integrated.defaultProfile.osx": "devboxCompatibleShell",
+    // guard in case jetpack-io.devbox is installed; direnv already handles env-loading
+    "devbox.autoShellOnTerminal": false
 }
