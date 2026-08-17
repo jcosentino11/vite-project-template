@@ -2,5 +2,10 @@
   "$schema":  "https://raw.githubusercontent.com/jetify-com/devbox/0.14.2/.schema/devbox.schema.json",
   "packages": [
     "nodejs@24.4.0"
-  ]
+  ],
+  "shell": {
+    "init_hook": [
+      "$DEVBOX_PROJECT_ROOT/.vscode/install-extensions.sh"
+    ]
+  }
 }

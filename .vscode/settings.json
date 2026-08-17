@@ -5,5 +5,7 @@
             "args": []
         }
     },
-    "terminal.integrated.defaultProfile.osx": "devboxCompatibleShell"
+    "terminal.integrated.defaultProfile.osx": "devboxCompatibleShell",
+    // direnv now loads devbox's env; don't let the devbox extension double-shell terminals
+    "devbox.autoShellOnTerminal": false
 }
